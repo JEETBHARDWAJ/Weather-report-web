@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: url("img.jpg"); */
 }
-
 .base{
-    background-image: url("pexels-gabriela-palai-395196.jpg");
     background-color: pink;
     width: 100vw;
     height: 100vh;
@@ -16,10 +16,13 @@
 }
 
 .m_box{
+    /* background-color: gray; */
+    opacity: .7;
     height: 70vh;
     width: 80vw;
     border: none;
     border-radius: 10px;
+    
 
     display: flex;
     flex-direction: column;
